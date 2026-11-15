@@ -1,6 +1,0 @@
-[Desktop Entry]
-Name=NRPM Desktop
-Comment=Sway fork with i3 Window Manager + XFCE4 Panel preconfig
-Exec=/usr/share/hinnkaDE/NRPMDesktop.sh
-Type=Application
-DesktopNames=sway;wlroots
