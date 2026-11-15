@@ -9,7 +9,7 @@ font pango:monospace 8
 #font pango:DejaVu Sans Mono 8
 
 # NRPM Desktop welcome startup
-exec "i3-nagbar -m 'Welcome to NRPM Desktop! A full Wayland desktop with Sway fork. Have fun using it!' -B 'Okay!' 'pkill i3-nagbar'"
+exec --no-startup-id "i3-nagbar -m 'Welcome to NRPM Desktop! A full Wayland desktop with Sway fork. Have fun using it!' -B 'Okay!' 'pkill i3-nagbar'"
 # Disable the welcome startup if found annoying till next login. It's on by default
 
 # NRPM Desktop new startup
