@@ -2,6 +2,6 @@ sudo apt install -y --no-install-recommends sway swaybg kitty xdg-desktop-portal
 
 sudo cp -r usr /
 
-chmod u+x /usr/share/wayland-sessions/NRPM.desktop
+sudo chmod u+x /usr/share/wayland-sessions/NRPM.desktop
 
-chmod u+x /usr/share/hinnkaDE/NRPMDesktop.sh
+sudo chmod u+x /usr/share/hinnkaDE/NRPMDesktop.sh
