@@ -2,6 +2,6 @@ sudo pacman -Sy --needed --nocofirmed sway swaybg kitty xdg-desktop-portal-wlr x
 
 sudo cp -r usr /
 
-chmod u+x /usr/share/wayland-sessions/NRPM.desktop
+sudo chmod u+x /usr/share/wayland-sessions/NRPM.desktop
 
-chmod u+x /usr/share/hinnkaDE/NRPMDesktop.sh
+sudo chmod u+x /usr/share/hinnkaDE/NRPMDesktop.sh
