@@ -162,4 +162,4 @@ set $urgent-bg-color #E53935
 
 client.focused          $bg-color $bg-color $text-color #ff0000
 client.unfocused        $bg-color $bg-color $text-color #ff0000
-client.urgent           $urgent-bg-color $urgent-bg-color $text-color #ff00002
+client.urgent           $urgent-bg-color $text-color #ff00002
