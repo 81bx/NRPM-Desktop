@@ -13,11 +13,11 @@ exec "i3-nagbar -m 'Welcome to NRPM Desktop! A full Wayland desktop with Sway fo
 # Disable the welcome startup if found annoying till next login. It's on by default
 
 # NRPM Desktop new startup
+exec --no-startup-id xfce4-panel
+exec --no-startup-id nm-applet
+exec --no-startup-id dunst
 exec --no-startup-id dex --autostart --environment i3
 exec --no-startup-id swaybg -i '/usr/share/hinnkaDE/Wallpaper.png'
-exec --no-startup-id xfce4-panel
-exec --no-startup-id dunst
-exec --no-startup-id nm-applet
 
 # Use pactl to adjust volume in PulseAudio.
 set $refresh_i3status killall -SIGUSR1 i3status
