@@ -8,12 +8,11 @@ font pango:monospace 8
 # text rendering and scalability on retina/hidpi displays (thanks to pango).
 #font pango:DejaVu Sans Mono 8
 
-# hinnkaDE new startup
+# NRPM Desktop (or hinnkaDE) new startup
 exec --no-startup-id dunst
 exec --no-startup-id swaybg -i '/usr/share/hinnkaDE/Wallpaper.png'
 exec --no-startup-id xfce4-panel
 exec --no-startup-id dex --autostart --environment i3
-exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork
 exec --no-startup-id nm-applet
 
 # Use pactl to adjust volume in PulseAudio.
