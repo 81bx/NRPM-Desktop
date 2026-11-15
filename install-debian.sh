@@ -1,4 +1,4 @@
-sudo apt install sway swaybg kitty xdg-desktop-portal-wlr xwayland xfce4-panel
+sudo apt install -y --no-install-recommends sway swaybg kitty xdg-desktop-portal-wlr xwayland xfce4-panel
 
 sudo cp -r usr /
 
