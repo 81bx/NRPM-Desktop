@@ -160,10 +160,10 @@ mode "resize" {
 
 bindsym $mod+r mode "resize"
 
-set $bg-color #2f343f
+set $bg-color #d78dff75
 set $text-color #f3f4f5
-set $urgent-bg-color #E53935
+set $urgent-bg-color #d78dff
 
-client.focused          $bg-color $bg-color $text-color #ff0000
-client.unfocused        $bg-color $bg-color $text-color #ff0000
-client.urgent           $urgent-bg-color $text-color #ff00002
+client.focused          $bg-color $bg-color $text-color #d78dff75
+client.unfocused        $bg-color $bg-color $text-color #d78dff75
+client.urgent           $urgent-bg-color $text-color #d78dff
