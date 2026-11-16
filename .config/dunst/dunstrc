@@ -3,7 +3,7 @@
     width = 600
     height = 300
     origin = bottom-right
-    offset = 10x10
+    offset = 7x7
     frame_width = 5
     frame_color = "#e68aff"
     separator_height = 2
