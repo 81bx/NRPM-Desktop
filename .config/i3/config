@@ -9,7 +9,7 @@ font pango:monospace 8
 #font pango:DejaVu Sans Mono 8
 
 # NRPM Desktop welcome startup
-exec --no-startup-id "i3-nagbar -m 'Welcome to NRPM Desktop! A full Wayland desktop with Sway fork. Have fun using it! (please disable the welcome message on $HOME/.config/i3/config)' -B 'Okay!' 'pkill i3-nagbar'"
+exec --no-startup-id "i3-nagbar -p -m 'Welcome to NRPM Desktop! A full Wayland desktop with Sway fork. Have fun using it! (please disable the welcome message on $HOME/.config/i3/config)' -B 'Okay!' 'pkill i3-nagbar'"
 # Disable the welcome startup if found annoying till next login. It's on by default
 
 # NRPM Desktop new startup
@@ -131,7 +131,7 @@ bindsym $mod+Shift+c reload
 # restart i3 inplace (preserves your layout/session, can be used to upgrade i3)
 bindsym $mod+Shift+r restart
 # exit NRPM (logs you out of your Wayland session)
-bindsym $mod+Shift+e exec "i3-nagbar -m 'Do you really want to exit NRPM Desktop? This will end your Wayland session and all your apps will be closed if you saved.' -B 'Yes' 'pkill xfce4-panel && pkill sway'"
+bindsym $mod+Shift+e exec "i3-nagbar -p -m 'Do you really want to exit NRPM Desktop? This will end your Wayland session and all your apps will be closed if you saved.' -B 'Yes' 'pkill xfce4-panel && pkill sway'"
 
 # resize window (you can also use the mouse for that)
 mode "resize" {
