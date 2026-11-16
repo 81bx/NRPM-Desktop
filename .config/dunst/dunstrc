@@ -1,9 +1,9 @@
 [global]
     font = Monospace 8
-    width = 500
-    height = 2500
-    origin = top-center
-    offset = 5x5
+    width = 600
+    height = 300
+    origin = bottom-right
+    offset = 10x10
     frame_width = 5
     frame_color = "#e68aff"
     separator_height = 2
@@ -15,4 +15,4 @@
 [urgency_normal]
     background = "#a91ecf"
     foreground = ""
-    timeout = 60   
+    timeout = 60
