@@ -128,9 +128,9 @@ bindsym $mod+Shift+0 move container to workspace number $ws10
 
 # reload the configuration file
 bindsym $mod+Shift+c reload
-# restart i3 inplace (preserves your layout/session, can be used to upgrade i3)
+# restart NRPM Desktop inplace (preserves your layout/session, can be used to upgrade NRPM Desktop)
 bindsym $mod+Shift+r restart
-# exit NRPM (logs you out of your Wayland session)
+# exit NRPM Desktop (logs you out of your Wayland session)
 bindsym $mod+Shift+e exec "i3-nagbar -p -m 'Do you really want to exit NRPM Desktop? This will end your Wayland session and all your apps will be closed if you saved.' -B 'Yes' 'pkill xfce4-panel && pkill sway'"
 
 # resize window (you can also use the mouse for that)
